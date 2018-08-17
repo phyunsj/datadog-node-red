@@ -1,0 +1,53 @@
+
+<!--  Native Square Node  -->
+<script type="text/javascript">
+    RED.nodes.registerType('datadog-metrics',{
+        category: 'analysis',
+        color: '#EE82EE',
+        defaults: {
+            name: {value:""},
+            
+            apikey: {value :"**********",required:true},
+            appkey: {value:"*********"},
+            hostname: {value:""},
+            prefix: { value:""}
+        },
+        inputs:1,
+        outputs:0,
+        align: 'right',
+        icon: "feed.png",
+        label: function() {
+            return this.name||"datadog";
+        }
+    });
+</script>datadog-metrics
+
+<script type="text/x-red" data-template-name="datadog-metrics">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-apikey"><i class="icon-tag"></i>API Key</label>
+        <input type="text" id="node-input-apikey" placeholder="api-key">
+    </div>
+    <div class="form-row">
+        <label for="node-input-appkey"><i class="icon-tag"></i>APP Key</label>
+        <input type="text" id="node-input-appkey" placeholder="app-key">
+    </div>
+    <div class="form-row">
+        <label for="node-input-hostname"><i class="icon-tag"></i>Host Name</label>
+        <input type="text" id="node-input-hostname" placeholder="rasberry-pi-1234">
+    </div>
+    <div class="form-row">
+        <label for="node-input-prefix"><i class="icon-tag"></i>Prefix</label>
+        <input type="text" id="node-input-prefix" placeholder="us-east-1.">
+    </div>
+</script>
+
+
+<script type="text/x-red" data-help-name="datadog-metrics">
+    <p> Datadog-metrics lets you collect application metrics through DataDog's HTTP API. 
+    </p>          
+</script>
+
