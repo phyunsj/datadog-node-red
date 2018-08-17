@@ -27,3 +27,12 @@ Build a custom node on the top of [node-datadog-metrics.](https://github.com/dba
 <p align="center">
 <img src="https://github.com/phyunsj/datadog-node-red/blob/master/icons/datadog-node-red-flow.png" width="600px"/>
 </p>
+
+## IoT Monitoring 
+
+The main purpose of embedding `node-datadog-metrics` on Node-RED(i.e., Rasberry-Pi) is to visialize the state of IoT devices. 
+
+#### Related Posts
+
+- [Monitor IoT devices with Home Assistant and Datadog](https://www.datadoghq.com/blog/monitor-home-assistant/)
+- [Datadog in the wild: 5 fun projects](https://www.datadoghq.com/blog/datadog-in-the-wild-5-fun-projects/)
