@@ -7,6 +7,13 @@
 
 Build a custom node on the top of [node-datadog-metrics.](https://github.com/dbader/node-datadog-metrics)  Follow the same example described in this [tutorial.](https://dbader.org/blog/monitoring-your-nodejs-app-with-datadog) 
 
+## DataDog Screenboard
+
+<p align="center">
+<img src="https://github.com/phyunsj/datadog-node-red/blob/master/icons/datadog-metrics-screenboard.gif" width="600px"/>
+</p>
+
+
 ## Node-RED Flow Example
 
 <p align="center">
