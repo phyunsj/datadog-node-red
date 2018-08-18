@@ -1,5 +1,5 @@
 
-Node-RED payload format 
+Node-RED payload from a `function` node to `datadog` node. 
 
 ```
 msg.payload = { 
@@ -9,3 +9,7 @@ msg.payload = {
   counter : [ { name : 'memory.statsReported'} ] 
 };
 ```
+
+- .gauge ( _name, value_ ) 
+- counter  -> .increment ( _name, value_ ) or ( _name_ )
+- .histogram ( _name, value_ )
