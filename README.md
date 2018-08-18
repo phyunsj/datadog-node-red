@@ -30,7 +30,7 @@ Build a custom node on the top of [node-datadog-metrics.](https://github.com/dba
 
 ## IoT Monitoring 
 
-The main purpose of embedding `node-datadog-metrics` on Node-RED is to visialize the state of IoT devices (i.e., Rasberry-Pi). 
+The main purpose of embedding `node-datadog-metrics` on Node-RED is to visialize the state of IoT devices (i.e., Rasberry-Pi) using DataDog. 
 
 #### Related Posts
 
