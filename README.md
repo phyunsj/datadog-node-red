@@ -5,7 +5,7 @@
 
 # DataDog + Node-RED + node-datadog-metrics
 
-Build a custom node on the top of [node-datadog-metrics.](https://github.com/dbader/node-datadog-metrics)  Follow the same example described in this [tutorial.](https://dbader.org/blog/monitoring-your-nodejs-app-with-datadog)(Credits to **Dan Bader**)  to keep it simple. 
+Build a custom node with [node-datadog-metrics.](https://github.com/dbader/node-datadog-metrics)  Follow the same example described in this [tutorial.](https://dbader.org/blog/monitoring-your-nodejs-app-with-datadog)(Credits to **Dan Bader**)  to keep it simple. 
 
 ## DataDog Screenboard
 
@@ -30,7 +30,7 @@ Build a custom node on the top of [node-datadog-metrics.](https://github.com/dba
 
 ## IoT Monitoring 
 
-The main purpose of embedding `node-datadog-metrics` on Node-RED is to visialize the state of IoT devices (i.e., Rasberry-Pi) using DataDog. 
+The main purpose of embedding `node-datadog-metrics` on Node-RED tool is to visialize the state of IoT devices (i.e., Rasberry-Pi) using DataDog. 
 
 #### Related Posts
 
