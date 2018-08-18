@@ -10,6 +10,8 @@ msg.payload = {
 };
 ```
 
-- .gauge ( _name, value_ ) 
-- counter  -> .increment ( _name, value_ ) or ( _name_ )
-- .histogram ( _name, value_ )
+Triggers
+
+- `datadog.gauge` ( _name, value_ ) 
+- counter  -> `datadog.increment` ( _name, value_ ) or ( _name_ )
+- `datadog.histogram` ( _name, value_ )
