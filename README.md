@@ -5,7 +5,7 @@
 
 # DataDog + Node-RED + node-datadog-metrics
 
-Build a custom node with [node-datadog-metrics.](https://github.com/dbader/node-datadog-metrics)  Follow the same example described in this [tutorial.](https://dbader.org/blog/monitoring-your-nodejs-app-with-datadog)(Credits to **Dan Bader**)  to keep it simple. 
+Build a custom node with [node-datadog-metrics.](https://github.com/dbader/node-datadog-metrics)  Follow the same example described in this [tutorial](https://dbader.org/blog/monitoring-your-nodejs-app-with-datadog)(Credits to **Dan Bader**)  to keep it simple. 
 
 ## DataDog Screenboard
 
